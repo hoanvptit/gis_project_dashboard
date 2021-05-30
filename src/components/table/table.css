@@ -1,0 +1,109 @@
+.color-title {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-index-detail {
+    margin-top: 50px;
+}
+
+.table-index-detail h1 {
+    text-align: center;
+}
+
+.table-stats {
+    display: grid;
+    grid-template-columns: 6.2fr 1fr;
+    gap: 30px;
+    /* margin-top: 20px; */
+}
+
+.table-stats .index-info {
+    margin: 10px 0;
+}
+
+.table-stats .table-index {
+    /* padding:50px 15px; */
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-stats .table-index th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.table-stats .table-index td, .table-index th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table-stats .table-index tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-stats .table-index tr:hover {
+    background-color: #ddd;
+}
+
+.table-stats .index-color {
+    margin: 10px 0;
+    background-color: rgb(207, 248, 240);
+    border-radius: 5px;
+    padding: 16px 10px;
+}
+
+.table-stats .index-color h1 {
+    font-size: 24px;
+    color: #2e4a66;
+    /* margin-bottom: 5px; */
+    text-align: center;
+}
+
+.index-color .table-color {
+    display: grid;
+    grid-template-areas: 'good-color good-title' 'normal-color normal-title' 'bad-color bad-title' 'very-bad-color very-bad-title';
+    gap: 15px;
+    margin-top: 48px;
+}
+
+.table-color .good-color {
+    grid-area: good-color;
+    background-color: rgb(17, 153, 17);
+}
+
+.table-color .good-title {
+    grid-area: good-title;
+}
+
+.table-color .normal-color {
+    grid-area: normal-color;
+    background-color: rgb(103, 163, 12);
+}
+
+.table-color .normal-title {
+    grid-area: normal-title;
+}
+
+.table-color .bad-color {
+    grid-area: bad-color;
+    background-color: rgb(212, 178, 27);
+}
+
+.table-color .bad-title {
+    grid-area: bad-title;
+}
+
+.table-color .very-bad-color {
+    grid-area: very-bad-color;
+    background-color: rgb(224, 70, 24);
+}
+
+.table-color .very-bad-title {
+    grid-area: very-bad-title;
+}
